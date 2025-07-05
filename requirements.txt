@@ -24,9 +24,10 @@ torchcrepe
 praat-parselmouth>=0.4.2
 translators
 spacy>=3.2.0
-transformers==4.36.2
+transformers>=4.33.0 
 deepl
 requests
+tts
 pysubs2
 whisperx
 silero-tts
