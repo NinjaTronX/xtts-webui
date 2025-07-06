@@ -97,7 +97,7 @@ Move model.pth file, config.json speakers_xtts.pth vocab.json to this folder
 
 Then start the webui for xtts by running this command:
 ```bash
-python app.py -v \<created folder w/ model.pth & related files\>
+python app.py -v <created folder w/ model.pth & related files>
 ```
 
 Here are some runtime arguments that can be used when starting the application:
