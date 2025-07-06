@@ -92,9 +92,12 @@ or if you're on Linux,
 ```bash
 source venv/bin/activate
 ```
+Create a folder for your model under xtts-webui/models/<create folder here>
+Move model.pth file, config.json speakers_xtts.pth vocab.json to this folder
+
 Then start the webui for xtts by running this command:
 ```bash
-python app.py
+python app.py -v <created folder w/ model.pth & related files>
 ```
 
 Here are some runtime arguments that can be used when starting the application:
