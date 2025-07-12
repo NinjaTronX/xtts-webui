@@ -215,7 +215,8 @@ tensorboardX==2.6.2.2
 thinc==8.2.5
 threadpoolctl==3.6.0
 tokenizers==0.19.1
-torch @ file:///home/vizion/Code/xtts-webui/torch-2.7.0%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl
+torch==2.7.0+cu128 # If you need to manually download and install the wheel file (if the pip downloader stahls during the install.sh scrip) use below code for reference. 
+#torch @ file:///home/vizion/Code/xtts-webui/torch-2.7.0%2Bcu128-cp310-cp310-manylinux_2_28_x86_64.whl
 torch-audiomentations==0.12.0
 torch_pitch_shift==1.2.5
 torchaudio==2.7.0+cu128
