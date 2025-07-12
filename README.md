@@ -47,21 +47,22 @@ Use this web UI through [Google Colab](https://colab.research.google.com/drive/1
 
 **Please ensure you have Python 3.10.x or Python 3.11, CUDA 11.8 or CUDA 12.1 , Microsoft Builder Tools 2019 with c++ package, and ffmpeg installed**
 
-### 1 Method, through scripts
+## Option 1: Scripted Method
 
 #### Windows
 To get started:
 - Run 'install.bat' file
-- To start the web UI, run 'start_xtts_webui.bat'
+- Set up your models folder (See Running the Application)
+- To start the web UI via script, run 'start_xtts_webui.bat'
 - Open your preferred browser and go to local address displayed in console.
 - 
 #### Linux
 To get started:
-- Run 'install.sh' file
-- To start the web UI, run 'start_xtts_webui.sh'
+- Run **install.sh** file
+- To start the web UI, run **start_xtts_webui.sh**
 - Open your preferred browser and go to local address displayed in console.
 
-### 2 Method, Manual
+## Option 2: Manual Method
 Follow these steps for installation:
 1. Ensure that `CUDA` is installed
 2. Clone the repository: `git clone https://github.com/daswer123/xtts-webui`
