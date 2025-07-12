@@ -51,14 +51,15 @@ Use this web UI through [Google Colab](https://colab.research.google.com/drive/1
 
 #### Windows
 To get started:
-- Run 'install.bat' file
+- Run **install.bat** file
 - Set up your models folder (See Running the Application)
-- To start the web UI via script, run 'start_xtts_webui.bat'
+- To start the web UI via script, run **start_xtts_webui.bat**
 - Open your preferred browser and go to local address displayed in console.
 - 
 #### Linux
 To get started:
 - Run **install.sh** file
+- Set up your models folder (See Running the Application)
 - To start the web UI, run **start_xtts_webui.sh**
 - Open your preferred browser and go to local address displayed in console.
 
